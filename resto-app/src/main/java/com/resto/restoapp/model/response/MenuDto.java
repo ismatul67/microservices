@@ -1,0 +1,13 @@
+package com.resto.restoapp.model.response;
+
+import lombok.Data;
+
+@Data
+public class MenuDto {
+    private Integer id;
+    private String name;
+    private long createdAt;
+    private long updatedAt;
+    private Integer price;
+    private  boolean isAvailable;
+}
